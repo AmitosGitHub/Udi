@@ -1,0 +1,71 @@
+@media (max-width: 600px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+    .top-header {
+      display: flex;
+    }
+    .mid-header {
+      display: flex;
+    }
+    .bottom-header {
+      display: flex;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+    .top-header {
+      display: flex;
+    }
+    .mid-header {
+      .influents-filter {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            background: linear-gradient(to left, #00c853, #b2ff59);
+            width: 10em;
+            height: 10em;
+            border: 5px solid;
+            // border-image-slice: 1;
+            border-radius: 50%;
+
+            // border-image-source: linear-gradient(to left, #00c853, #b2ff59);
+          }
+        }
+      }
+    }
+    .bottom-header {
+      .criterias-filter {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            background-color: $clr4;
+            width: 10em;
+            height: 5em;
+            border-radius: 80px 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 950px) {
+  .app-header {
+  }
+}
+@media (min-width: 1128px) {
+  .app-header {
+  }
+}
+
+@media (min-width: 1700px) {
+  .app-header {
+  }
+}

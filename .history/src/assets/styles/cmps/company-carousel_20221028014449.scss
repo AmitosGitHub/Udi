@@ -1,0 +1,14 @@
+.company-filter {
+  background-color: aqua;
+  width: 100%;
+  height: 100px;
+  ul {
+    li {
+      .content-criterias {
+        background-color: rgb(170, 0, 255);
+        width: 4em;
+        height: 4em;
+      }
+    }
+  }
+}

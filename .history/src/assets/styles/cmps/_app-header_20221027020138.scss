@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+    .top-header {
+      display: flex;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+    .top-header {
+      display: flex;
+    }
+  }
+}
+
+@media (min-width: 950px) {
+  .app-header {
+  }
+}
+@media (min-width: 1128px) {
+  .app-header {
+  }
+}
+
+@media (min-width: 1700px) {
+  .app-header {
+  }
+}

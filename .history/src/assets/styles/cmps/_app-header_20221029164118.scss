@@ -1,0 +1,200 @@
+@media (max-width: 600px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      .main-logo {
+        color: $clr4;
+      }
+      .nav-site {
+        ul {
+          display: flex;
+          width: 300px;
+          justify-content: space-between;
+        }
+      }
+    }
+    .mid-header {
+      .influents-filter {
+        // background-color: aqua;
+        .content-carousel {
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(to left, #00c853, #b2ff59);
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .slick-slide {
+          // background-color: aqua;
+          width: 100px;
+          height: 150px;
+          margin: 5px;
+        }
+        .slick-track {
+          // background-color: rgb(208, 255, 0);
+          margin-top: 10px;
+        }
+        .slick-list {
+          height: 200px;
+          // background-color: rgb(47, 255, 0);
+        }
+
+        .slick-dots {
+          opacity: 0;
+        }
+        ul {
+          display: flex;
+          justify-content: space-between;
+
+          li {
+            background: linear-gradient(to left, #00c853, #b2ff59);
+            width: 5em;
+            height: 5em;
+            border-radius: 50%;
+            img {
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+    .bottom-header {
+      .criterias-filter {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            background-color: $clr4;
+            width: 10em;
+            height: 5em;
+            border-radius: 80px 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      .main-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: $clr4;
+        font-size: 30px;
+        width: 130px;
+      }
+      .container-advertising {
+        background-color: #b2ff59;
+        width: 40%;
+        height: 100px;
+
+        img {
+          width: 90%;
+          height: 90%;
+        }
+      }
+    }
+    .mid-header {
+      .influents-filter {
+        .content-carousel {
+          width: 100px;
+          height: 100px;
+          background: linear-gradient(to left, #00c853, #b2ff59);
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            background: linear-gradient(to left, #00c853, #b2ff59);
+            width: 10em;
+            height: 8em;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            img {
+              width: 95%;
+              height: 95%;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+    .bottom-header {
+      .criterias-filter {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            background-color: $clr2;
+            width: 10em;
+            height: 5em;
+            border-radius: 80px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .content-criterias {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              font-size: 30px;
+              color: $clr6;
+
+              h4 {
+                color: $clr5;
+                font-size: 20px;
+                margin-top: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 950px) {
+  .app-header {
+  }
+}
+@media (min-width: 1128px) {
+  .app-header {
+  }
+}
+
+@media (min-width: 1700px) {
+  .app-header {
+  }
+}

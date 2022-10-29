@@ -1,0 +1,19 @@
+.app-footer {
+  // background-color: rgb(234, 231, 231);
+  border-top: 2px solid $clr2;
+  color: $clr6;
+  padding: 20px;
+  margin: 10px;
+  height: 100px;
+  // text-align: center;
+  display: flex;
+  justify-content: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-size: 20px;
+  }
+}

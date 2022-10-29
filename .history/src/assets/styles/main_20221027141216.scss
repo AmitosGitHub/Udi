@@ -1,0 +1,27 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+
+// Lib
+// @import '~bootstrap/scss/bootstrap';
+
+// Basic
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/base';
+@import 'basics/links';
+@import 'basics/forms';
+
+// Views
+@import 'views/about-us';
+@import 'views/home-page';
+
+// Components
+
+@import 'cmps/app-header';
+@import 'cmps/app-footer';
+@import 'women-fashion-carousel';
+@import 'men-fashion-carousel';
+@import 'home-tools-carousel';

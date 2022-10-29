@@ -1,0 +1,95 @@
+// .main-container {
+//   display: grid;
+
+//   // grid-template-columns: 80px 1fr 80px;
+
+//   > * {
+//     // background-color: rgb(140, 204, 204);
+//     grid-column: 2;
+
+//     &.full {
+//       grid-column: 1 /-1;
+//       //   background-color: rgb(89, 255, 0);
+//     }
+//   }
+// }
+// @media (max-width: 600px) {
+//   .main-container {
+//     grid-template-columns: 3px 600px 3px;
+//   }
+// }
+// @media (min-width: 600px) {
+//   .main-container {
+//     grid-template-columns: 80px 600px 80px;
+//   }
+// }
+// @media (min-width: 850px) {
+//   .main-container {
+//     grid-template-columns: 80px 750px 80px;
+//   }
+// }
+// @media (min-width: 1200px) {
+//   .main-container {
+//     grid-template-columns: 80px 1200px 80px;
+//   }
+// }
+
+.main-container {
+  @include for-mobile-layout {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 80px $mobile-breakpoint 80px;
+    > * {
+      grid-column: 2;
+      background-color: aquamarine;
+    }
+  }
+  // grid-template-columns:
+  //   minmax(20px, 1fr)
+  //   minmax(auto, $mobile-breakpoint)
+  //   minmax(20px, 1fr);
+
+  @include for-narrow-layout {
+    display: grid;
+    grid-template-columns: 80px $mobile-breakpoint 80px;
+
+    > * {
+      grid-column: 2;
+      background-color: rgb(255, 180, 127);
+    }
+  }
+  // grid-template-columns:
+  //   minmax(20px, 1fr)
+  //   minmax(auto, $mobile-breakpoint)
+  //   minmax(20px, 1fr);
+
+  @include for-normal-layout {
+    grid-template-columns: 80px $narrow-breakpoint 80px;
+    > * {
+      grid-column: 2;
+      background-color: rgb(127, 159, 255);
+    }
+  }
+  // grid-template-columns:
+  //   minmax(20px, 1fr)
+  //   minmax(auto, $narrow-breakpoint)
+  //   minmax(20px, 1fr);
+
+  @include for-wide-layout {
+    grid-template-columns: 80px $normal-breakpoint 80px;
+    > * {
+      grid-column: 2;
+      background-color: rgb(255, 127, 195);
+    }
+  }
+  // grid-template-columns:
+  //   minmax(20px, 1fr)
+  //   minmax(auto, $normal-breakpoint)
+  //   minmax(20px, 1fr);
+}
+
+// .card-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+//   grid-gap: 20px;
+// }

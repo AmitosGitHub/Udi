@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  section.product-list {
+    //   background-color: aqua;
+    display: flex;
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, 110px);
+
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    padding: 0;
+  }
+}
+@media (min-width: 600px) {
+  section.product-list {
+    //   background-color: aqua;
+    width: 100%;
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, 200px);
+
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    padding: 0;
+  }
+}

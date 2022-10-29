@@ -1,0 +1,11 @@
+section.product-list {
+  //   background-color: aqua;
+  width: 100%;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, 200px);
+
+  column-gap: 0.5em;
+  row-gap: 0.5em;
+  padding: 0;
+}
