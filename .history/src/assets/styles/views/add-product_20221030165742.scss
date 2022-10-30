@@ -1,0 +1,32 @@
+section.add-product {
+  border: 1px solid $clr3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  header {
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      li {
+        margin: 20px;
+      }
+    }
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .main-header {
+      width: 80%;
+      height: 3em;
+      border: 1px solid $clr3;
+    }
+  }
+}

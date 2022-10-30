@@ -1,0 +1,16 @@
+section.add-product {
+  border: 1px solid $clr3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  header {
+    ul {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

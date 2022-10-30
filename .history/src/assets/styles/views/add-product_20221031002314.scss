@@ -1,0 +1,160 @@
+section.add-product {
+  border: 1px solid $clr3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .top-header {
+      display: flex;
+      justify-content: space-around;
+
+      .box {
+        margin-top: 10px;
+        border: 1px solid $clr3;
+        height: 3em;
+        width: 100px;
+        text-align: center;
+        cursor: pointer;
+      }
+      .line {
+        border-top: 1px solid $clr3;
+        width: 10%;
+        margin-top: 30px;
+      }
+
+      .modal {
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        width: 300px;
+        height: 200px;
+        background: $clr6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 80px;
+          height: 80px;
+          margin: 10px;
+          cursor: pointer;
+        }
+        img:hover {
+          box-shadow: 8px 23px 58px 4px rgba(0, 0, 0, 0.75);
+        }
+      }
+    }
+    .bottom-header {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      button {
+        width: 50%;
+        margin: 10px;
+
+        &.green {
+          background: greenyellow;
+        }
+      }
+    }
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .main-header {
+      width: 80%;
+      height: 3em;
+      border: 1px solid $clr3;
+      margin: 10px;
+    }
+
+    .container-gallery-img {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .gallery-img1 {
+        background: $clr3;
+        width: 50%;
+        height: 300px;
+        border: 1px solid $clr3;
+        margin: 10px;
+      }
+      .gallery-img2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .box {
+          background: $clr3;
+          border: 1px solid $clr3;
+          width: 80%;
+          height: 200px;
+          margin: 10px;
+        }
+      }
+      .gallery-img3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 80%;
+        height: 600px;
+        border: 1px solid $clr3;
+        margin: 10px;
+
+        .box {
+          border: 1px solid $clr3;
+        }
+        .box1 {
+          border: 1px solid $clr3;
+          background: $clr3;
+          grid-area: 1 / 1 / 2 / 4;
+        }
+        .box2 {
+          background: $clr3;
+          border: 1px solid $clr3;
+          grid-area: 2 / 2 / 4 / 4;
+        }
+        .box3 {
+          background: $clr3;
+          border: 1px solid $clr3;
+          grid-area: 2 / 1 / 4 / 2;
+        }
+        .box4 {
+          background: $clr3;
+          border: 1px solid $clr3;
+          grid-area: 4 / 1 / 5 / 4;
+        }
+        .box5 {
+          border: 1px solid $clr3;
+          height: 100px;
+          grid-area: 4 / 1 / 5 / 4;
+        }
+      }
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5 {
+        border: 1px solid $clr3;
+        background: pink;
+      }
+    }
+  }
+}
