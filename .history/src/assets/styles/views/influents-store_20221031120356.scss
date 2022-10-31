@@ -1,0 +1,22 @@
+section.influents-store {
+  display: flex;
+  flex-direction: column;
+
+  .container-hero {
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+    .bckg-img1 {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+    }
+    .bckg-img2 {
+      position: absolute;
+
+      width: 500px;
+      height: 300px;
+    }
+  }
+}

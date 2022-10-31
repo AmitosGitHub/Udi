@@ -1,0 +1,23 @@
+.criterias-filter {
+  // background-color: aqua;
+  width: 100%;
+  height: 100px;
+  // display: none;
+  .content-criterias {
+    background-color: $clr2;
+    width: 4em;
+    height: 4em;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $clr6;
+    font-size: 20px;
+    h4 {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }
+}

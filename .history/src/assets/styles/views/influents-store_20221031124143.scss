@@ -1,0 +1,88 @@
+section.influents-store {
+  display: flex;
+  flex-direction: column;
+
+  .container-hero {
+    .bckg-img1 {
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      right: 0px;
+      bottom: 0px;
+      background-color: rgb(204, 255, 0);
+      img {
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+      }
+    }
+    .bckg-img2 {
+      position: absolute;
+      background-color: aqua;
+      width: 500px;
+      height: 300px;
+      left: -250px;
+      bottom: -40px;
+      img {
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+      }
+    }
+    // .company-carousel {
+    //   z-index: 10;
+    //   margin-top: 100px;
+    // }
+  }
+}
+@media (max-width: 600px) {
+  .container-hero {
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+    .bckg-img2 {
+        display: none;
+        position: absolute;
+        background-color: aqua;
+        width: 500px;
+        height: 300px;
+        left: -250px;
+        bottom: -40px;
+        img {
+          position: absolute;
+          bottom: 0;
+          left: 0px;
+        }
+    .company-carousel {
+      z-index: 10;
+      margin-top: 10px;
+    }
+  }
+}
+@media (min-width: 600px) {
+  .container-hero {
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+
+    .bckg-img2 {
+        display: block;
+        position: absolute;
+        background-color: aqua;
+        width: 500px;
+        height: 300px;
+        left: -250px;
+        bottom: -40px;
+        img {
+          position: absolute;
+          bottom: 0;
+          left: 0px;
+        }
+    .company-carousel {
+      z-index: 10;
+      margin-top: 100px;
+    }
+  }
+}
