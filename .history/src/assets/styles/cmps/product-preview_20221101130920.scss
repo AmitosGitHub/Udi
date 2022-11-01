@@ -1,0 +1,12 @@
+.product-preview {
+  .preview-img-container {
+    // background-color: aqua;
+    width: 200px;
+    height: 300px;
+    background-color: aquamarine;
+    img {
+      border-radius: 1em;
+      box-shadow: 2px 4px 11px -2px #000000;
+    }
+  }
+}

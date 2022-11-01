@@ -1,0 +1,29 @@
+.product-preview {
+  .preview-img-container {
+    // background-color: aqua;
+    // width: 220px;
+    // height: 300px;
+
+    background-color: aquamarine;
+    img {
+      width: 90%;
+      border-radius: 1em;
+      box-shadow: 2px 4px 11px -2px #000000;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .preview-img-container {
+    // background-color: aqua;
+    width: 110px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 600px) {
+  .preview-img-container {
+    // background-color: aqua;
+    width: 220px;
+    height: 300px;
+  }
+}
