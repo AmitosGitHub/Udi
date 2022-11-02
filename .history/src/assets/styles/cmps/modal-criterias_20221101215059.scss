@@ -1,0 +1,24 @@
+section.modal-criterias {
+  width: 40vw;
+  height: 40vh;
+  box-shadow: 2px 4px 11px -2px #494949;
+  border-radius: 1em;
+  position: absolute;
+
+  z-index: 10;
+  background: whitesmoke;
+}
+
+@media (max-width: 600px) {
+  section.modal-criterias {
+    top: 35%;
+    left: 30%;
+  }
+}
+
+@media (min-width: 600px) {
+  section.modal-criterias {
+    top: 35%;
+    left: 30%;
+  }
+}

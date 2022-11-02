@@ -1,0 +1,107 @@
+section.influents-store {
+  display: flex;
+  flex-direction: column;
+  background-color: #cfb4b4;
+
+  .container-hero {
+    .influents-name {
+      font-family: island_Moments;
+      position: absolute;
+      top: 160px;
+      left: 250px;
+      font-size: 40px;
+      background: #730e58;
+      background: linear-gradient(
+        to right,
+        #730e58 0%,
+        #ff8ab9 50%,
+        #cfb4b4 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .bckg-img1 {
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      right: 10px;
+      bottom: 0px;
+      //   background-color: rgb(204, 255, 0);
+      img {
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .container-hero {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    .influents-name {
+      position: absolute;
+      top: 10px;
+      left: 250px;
+      font-size: 40px;
+      color: $clr4;
+      h1 {
+        font-family: island_Moments;
+      }
+    }
+    .bckg-img1 {
+      display: none;
+    }
+
+    .bckg-img2 {
+      display: block;
+      position: absolute;
+      // background-color: aqua;
+      width: 400px;
+      height: 300px;
+      left: 0px;
+      bottom: -40px;
+      img {
+        position: absolute;
+        bottom: 20px;
+        left: -80px;
+      }
+    }
+    .company-carousel {
+      z-index: 10;
+      margin-top: 10px;
+    }
+  }
+}
+@media (min-width: 600px) {
+  .container-hero {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    .influents-name {
+      h1 {
+        font-family: island_Moments;
+      }
+    }
+    .bckg-img2 {
+      display: block;
+      position: absolute;
+      // background-color: aqua;
+      width: 500px;
+      height: 300px;
+      left: 0px;
+      bottom: -40px;
+      img {
+        position: absolute;
+        bottom: 20px;
+        left: -80px;
+      }
+    }
+    .company-carousel {
+      z-index: 10;
+      margin-top: 100px;
+    }
+  }
+}
