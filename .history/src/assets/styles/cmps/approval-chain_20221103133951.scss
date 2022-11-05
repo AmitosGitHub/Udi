@@ -1,0 +1,20 @@
+section.approval-chain {
+  //   background-color: aqua;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+
+  .box {
+    background-color: aqua;
+    border-radius: 1em;
+
+    &&.green {
+      background-image: linear-gradient(
+        to bottom right,
+        rgb(199, 219, 199),
+        rgb(115, 147, 115),
+        rgb(9, 202, 9)
+      );
+    }
+  }
+}
