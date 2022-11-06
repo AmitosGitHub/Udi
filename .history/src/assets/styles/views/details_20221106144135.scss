@@ -1,0 +1,19 @@
+section.details {
+  header {
+    text-align: center;
+    width: 100%;
+    a {
+      color: black;
+      width: 200px;
+      height: 60px;
+      box-shadow: 2px 4px 11px -2px #494949;
+      border-radius: 1em;
+      background-image: linear-gradient(
+        to bottom right,
+        rgb(199, 219, 199),
+        rgb(68, 137, 68),
+        rgb(8, 248, 8)
+      );
+    }
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "622f337a75c7d36e498aaaf8",
+    "name": "אוסטרלי קלאסי נשים ",
+    "type": "shoes",
+    "imgUrls": [
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667676652/glhgyy1syxhceklaadni.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667676681/d3wahuyfkfq344gnbvbs.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667676729/h2cvncrqnu3n697dz1jj.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667676745/jnj9xfs7d7kaejra1xxu.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667676763/ybznmi4m7t7njufynp9c.jpg"
+    ],
+    "summary": "אוסטרלי קלאסי נשים של קרסול מגפי קטיפה עבה חם חורף מגפי נשים עור אמיתי שלג מגפי פרה זמש גבירותיי נעליים",
+    "amenities": ["women", "shoes"],
+    "created": "",
+    "seller": {
+      "_id": "u101",
+      "fullname": "Amit Osman"
+    },
+    "countClick": 0,
+    "link": "https://s.click.aliexpress.com/e/_DlA0jeT",
+    "stock": true
+  },
+  {
+    "_id": "622f337a75c7d36e498aav56",
+    "name": "כפכפים גברים כמו טבע נאות",
+    "type": "shoes",
+    "imgUrls": [
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667677833/wp65vjupzxtciibeiwej.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667677842/xd6cs7szdoumeqjsyosj.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667677857/cfaf4ctgt5dzam1vinot.jpg"
+    ],
+    "summary": "כפכפים גברים כמו טבע נאות",
+    "amenities": ["men", "shoes"],
+    "created": "",
+    "seller": {
+      "_id": "u101",
+      "fullname": "Amit Osman"
+    },
+    "countClick": 0,
+    "link": "https://s.click.aliexpress.com/e/_DDdLIDz",
+    "stock": true
+  },
+  {
+    "_id": "622f337a75c7d36e498aa123",
+    "name": "מעיל יוניקלו",
+    "type": "coat",
+    "imgUrls": [
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667678459/xxql61glb1dhkcw5yldr.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667678473/mxq4h9gjfg3vgj48dzpb.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667678521/hex5p7has52lpooc7qde.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667678533/ujkj0t4ozugxyejqgqn5.jpg",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667678543/xldadt1trpv9eazxebna.jpg"
+    ],
+    "summary": "מעיל יוניקלו",
+    "amenities": ["men", "coat"],
+    "created": "",
+    "seller": {
+      "_id": "u101",
+      "fullname": "Amit Osman"
+    },
+    "countClick": 0,
+    "link": "https://s.click.aliexpress.com/e/_DdWa4M3",
+    "stock": true
+  },
+  {
+    "_id": "622f337a75c7d36e498aad456",
+    "name": "כוסות קפה קר",
+    "type": "home",
+    "imgUrls": [
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667682756/owlklvholh4n8wzqm7g5.png",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667682768/xc9irbvdi8pv2f7qkoe7.png",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667682782/thhwl6hup9mfoq7jtlkq.png",
+      "https://res.cloudinary.com/dcwibf9o5/image/upload/v1667682803/epp7uhzsg0lclqc8z3g8.png"
+    ],
+    "summary": "כוסות קפה קר",
+    "amenities": ["home"],
+    "created": "",
+    "seller": {
+      "_id": "u101",
+      "fullname": "Amit Osman"
+    },
+    "countClick": 0,
+    "link": "https://s.click.aliexpress.com/e/_DBMwPkJ",
+    "stock": true
+  }
+]

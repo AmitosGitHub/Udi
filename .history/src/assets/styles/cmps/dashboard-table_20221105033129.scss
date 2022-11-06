@@ -1,0 +1,15 @@
+section.dashboard-table {
+  box-shadow: 2px 4px 6px -2px #494949;
+  table {
+    text-align: center;
+    tr {
+      border: 1px solid black;
+
+      td {
+        border: 1px solid black;
+        width: 120px;
+        height: 60px;
+      }
+    }
+  }
+}

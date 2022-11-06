@@ -1,0 +1,43 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+
+// Lib
+// @import '~bootstrap/scss/bootstrap';
+
+// Basic
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/base';
+@import 'basics/links';
+@import 'basics/forms';
+
+// Views
+@import 'views/about-us';
+@import 'views/home-page';
+@import 'views/login-page';
+@import 'views/add-product';
+@import 'views/influents-store';
+@import 'views/details';
+
+// Components
+
+@import 'cmps/app-header';
+@import 'cmps/app-footer';
+@import 'cmps/company-carousel';
+@import 'cmps/criterias-carousel';
+@import 'cmps/product-list';
+@import 'cmps/product-preview';
+
+//add-product
+@import 'cmps/modal-company';
+@import 'cmps/modal-criterias';
+@import 'cmps/approval-chain';
+@import 'cmps/order-gallery';
+
+//dashboard
+@import 'cmps/dashboard';
+@import 'cmps/dashboard-table';
+@import 'cmps/dashboard-chart';
