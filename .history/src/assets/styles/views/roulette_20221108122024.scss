@@ -1,0 +1,22 @@
+section.container-roulette {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    color: black;
+    font-size: 20px;
+    width: 140px;
+    height: 50px;
+    box-shadow: 2px 4px 6px -2px #494949;
+    border-radius: 1em;
+
+    border: 1px solid #730e58;
+  }
+
+  .prize {
+    width: 300px;
+    height: 300px;
+  }
+}

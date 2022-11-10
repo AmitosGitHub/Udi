@@ -1,0 +1,70 @@
+import React from 'react'
+import { useEffect, useState, useRef } from 'react'
+import { Wheel } from 'react-custom-roulette'
+
+export const Roulette = () => {
+  const data = [
+    {
+      option: 'shirzooker',
+      style: { backgroundColor: 'pink', textColor: 'black' },
+    },
+    {
+      option: 'avivit_vivi_20',
+      style: { backgroundColor: '#ffe6f7', textColor: 'black' },
+    },
+    { option: 'adi_tabuk', style: { textColor: 'black' } },
+    { option: 'michaltropianski', style: { textColor: 'black' } },
+    { option: 'ariel222', style: { textColor: 'black' } },
+    { option: 'loren.shel1', style: { textColor: 'black' } },
+    { option: 'liel7602', style: { textColor: 'black' } },
+    { option: 'gili1cohen', style: { textColor: 'black' } },
+    { option: 'neta_wa', style: { textColor: 'black' } },
+    { option: 'marinnidam', style: { textColor: 'black' } },
+    { option: 'nitzannhalfon', style: { textColor: 'black' } },
+    { option: 'rina_peso_z', style: { textColor: 'black' } },
+    { option: 'shanikup', style: { textColor: 'black' } },
+    { option: 'yafit_ad', style: { textColor: 'black' } },
+    { option: 'hodaya.moalen', style: { textColor: 'black' } },
+  ]
+  const [mustSpin, setMustSpin] = useState(false)
+  const [prizeNumber, setPrizeNumber] = useState(15)
+
+  const handleSpinClick = () => {
+    const newPrizeNumber = Math.floor(Math.random() * data.length)
+    setPrizeNumber(0)
+    setMustSpin(true)
+  }
+
+  return (
+    <section className="container-roulette">
+      <Wheel
+        mustStartSpinning={mustSpin}
+        prizeNumber={prizeNumber}
+        data={data}
+        backgroundColors={[
+          '#ffffff',
+          '#ffe7e6',
+          '#ffcfcc',
+          '#ffb6b3',
+          '#ff8680',
+          '#ff6e66',
+          '#ff3d33',
+          '#ff1409',
+          '#b30900',
+          '#990800',
+          '#660500',
+          '#800055',
+          '#b30077',
+          '#e60099',
+          '#ff33bb',
+          '#ff99dd',
+        ]}
+        textColors={['#ffffff']}
+        onStopSpinning={() => {
+          setMustSpin(false)
+        }}
+      />
+      <button onClick={handleSpinClick}>SPIN</button>
+    </section>
+  )
+}

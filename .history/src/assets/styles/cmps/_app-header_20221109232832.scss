@@ -1,0 +1,412 @@
+@media (max-width: 600px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+
+    .top-header {
+      border-bottom: 1px solid $clr2;
+      width: 100%;
+      height: 0px;
+      // background-color: #596fff;
+      .container-advertising {
+        // background-color: #b2ff59;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        width: 50%;
+        height: 50px;
+        .advertising {
+          background-color: #596fff;
+          width: 100%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    .mid-header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid $clr2;
+      margin-top: 10px;
+      position: relative;
+      .main-logo {
+        font-family: island_Moments;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: $clr4;
+        font-size: 30px;
+        .main-logo-txt {
+          font-family: island_Moments;
+          background: #730e58;
+          background: linear-gradient(
+            to right,
+            #730e58 0%,
+            #ff8ab9 50%,
+            #cfb4b4 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .main-logo-sign {
+          // display: none;
+          background: #730e58;
+          background: linear-gradient(
+            to right,
+            #730e58 0%,
+            #ff8ab9 50%,
+            #cfb4b4 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: #ff8ab9;
+        }
+      }
+      .main-menu {
+        // background-color: #b2ff59;
+        display: flex;
+        width: 4em;
+        height: 2em;
+        border-radius: 2em;
+        // border: 1px solid #730e58;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 24px;
+        color: #cc84b9;
+        // background-image: linear-gradient(
+        //   to bottom right,
+        //   #eec3e2,
+        //   #cda1b2,
+        //   #ee7abe
+        // );
+        // background-image: linear-gradient(to bottom right, $clr2, $clr1);
+        cursor: pointer;
+        // background: linear-gradient(
+        //   to right,
+        //   #b75c9f 0%,
+        //   #fcaccc 50%,
+        //   #f8efef 100%
+        // );
+        background: none;
+      }
+      .dropdown-main-menu {
+        display: none;
+        position: absolute;
+        width: 230px;
+        padding: 10px;
+        right: 0px;
+        top: 50px;
+        z-index: 10;
+        background-color: $clr6;
+        cursor: pointer;
+
+        &.active {
+          display: block;
+          background: $clr1;
+          box-shadow: 2px 4px 11px -2px #494949;
+          border-radius: 1em;
+          height: 450px;
+          top: 60px;
+
+          ul {
+            margin-left: -40px;
+            li {
+              color: rgb(38, 35, 35);
+              display: flex;
+              width: 100%;
+              justify-content: space-between;
+              padding: 10px;
+              // margin-right: 10px;
+              border-bottom: 1px solid #494949;
+              margin: 10px;
+            }
+            li:hover {
+              box-shadow: 2px 4px 11px -2px #494949;
+              border-radius: 1em;
+            }
+          }
+        }
+      }
+    }
+    .bottom-header {
+      margin-bottom: -20px;
+      .influents-filter {
+        // background: #b2ff59;
+        width: 100%;
+        height: 130px;
+
+        .slick-slide {
+          // background-color: aqua;
+          width: 100px;
+          height: 100px;
+          margin: 5px;
+        }
+        .slick-track {
+          // background-color: rgb(56, 66, 14);
+          height: 130px;
+          // width: 100%;
+          margin-top: 10px;
+        }
+        .slick-list {
+          height: 200px;
+          height: 120px;
+          // width: 100%;
+          // background-color: rgb(47, 255, 0);
+        }
+
+        .slick-dots {
+          opacity: 0;
+        }
+        .content-carousel {
+          // background: #d059ff;
+          width: 80px;
+          height: 80px;
+          background: linear-gradient(to left, pink, rgb(215, 23, 164));
+          box-shadow: 2px 4px 11px -2px #494949;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 2px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            background: linear-gradient(to left, #00c853, #b2ff59);
+            width: 10em;
+            height: 8em;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            img {
+              width: 95%;
+              height: 95%;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .app-header {
+    display: flex;
+    flex-direction: column;
+
+    .top-header {
+      border-bottom: 1px solid $clr2;
+      width: 100%;
+      height: 100%;
+      .container-advertising {
+        // background-color: #b2ff59;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        width: 50%;
+        height: 50px;
+        .advertising {
+          background-color: #596fff;
+          width: 100%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    .mid-header {
+      display: flex;
+
+      justify-content: space-between;
+      border-bottom: 1px solid $clr2;
+      margin-top: 10px;
+      position: relative;
+      .main-logo {
+        // font-family: island_Moments;
+        // font-family: Arial, Helvetica, sans-serif;
+        // background-color: #b2ff59;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: linear-gradient(to left, pink, rgb(215, 23, 164));
+        // background: linear-gradient(to left, pink, rgb(215, 23, 164));
+
+        font-size: 30px;
+
+        .main-logo-txt {
+          font-family: island_Moments;
+          background: #730e58;
+          background: linear-gradient(
+            to right,
+            #730e58 0%,
+            #ff8ab9 50%,
+            #cfb4b4 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .main-logo-sign {
+          background: #730e58;
+          background: linear-gradient(
+            to right,
+            #730e58 0%,
+            #ff8ab9 50%,
+            #cfb4b4 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          // display: none;
+          color: #ff8ab9;
+        }
+      }
+      .main-menu {
+        // background-color: #b2ff59;
+        display: flex;
+        width: 4em;
+        height: 2em;
+        border-radius: 2em;
+        border: 1px solid #730e58;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 24px;
+        color: #730e58;
+        cursor: pointer;
+      }
+      .dropdown-main-menu {
+        display: none;
+        position: absolute;
+        width: 230px;
+        padding: 10px;
+        right: 0px;
+        top: 50px;
+        z-index: 10;
+        background-color: $clr6;
+        cursor: pointer;
+
+        &.active {
+          display: block;
+          background: $clr1;
+          box-shadow: 2px 4px 11px -2px #494949;
+          border-radius: 1em;
+          height: 450px;
+          top: 60px;
+
+          ul {
+            margin-left: -40px;
+            li {
+              color: rgb(38, 35, 35);
+              display: flex;
+              width: 100%;
+              justify-content: space-between;
+              padding: 10px;
+              // margin-right: 10px;
+              border-bottom: 1px solid #494949;
+              margin: 10px;
+            }
+            li:hover {
+              box-shadow: 2px 4px 11px -2px #494949;
+              border-radius: 1em;
+            }
+          }
+        }
+      }
+
+      .editor {
+        // background-color: #00c853;
+        width: 4em;
+        height: 4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 50%;
+        border: 1px solid black;
+      }
+    }
+    .bottom-header {
+      .influents-filter {
+        // background: #b2ff59;
+        width: 100%;
+        height: 130px;
+
+        .slick-slide {
+          // background-color: aqua;
+          // width: 80px;
+          // height: 80px;
+          margin: 5px;
+        }
+
+        .slick-track {
+          // background-color: rgb(56, 66, 14);
+          height: 130px;
+          // width: 100%;
+          margin-top: 10px;
+        }
+        .slick-list {
+          height: 120px;
+        }
+
+        .slick-dots {
+          opacity: 0;
+        }
+        .content-carousel {
+          // width: 5em;
+          // height: 5em;
+          // width: 100%;
+          // height: 100%;
+          // background: #5cff59;
+          border-radius: 50%;
+          padding: 3px;
+
+          img {
+            border: 3px solid rgb(228, 148, 161);
+            box-shadow: 2px 4px 11px -2px #494949;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .app-header {
+    .bottom-header {
+      margin-bottom: 60px;
+      .influents-filter {
+        .slick-list {
+          height: 180px;
+        }
+        .slick-slide {
+          margin-bottom: 30px;
+        }
+        .content-carousel {
+          img {
+            width: 70%;
+            height: 70%;
+          }
+        }
+      }
+    }
+  }
+}
